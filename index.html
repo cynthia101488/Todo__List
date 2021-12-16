@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>今日工作清單</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <header class="header container mx-auto">
+    <h1 class="header__tit">今日工作清單</h1>
+  </header>
+  <main class="main container mx-auto">
+    <div class="input">
+      <input class="input__text" id="Input" type="text" placeholder="請輸入今日工作事項">
+      <button class="input__btn" id="Add" type="button">確定</button>
+    </div>
+    <div class="content">
+      <ul class="content__ls" id="List"></ul>
+      <div class="content__sec content-none" id="None">目前尚無定義工作事項！</div>
+    </div>
+  </main>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
